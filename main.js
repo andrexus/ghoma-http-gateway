@@ -86,9 +86,14 @@ router.get('/info/:id', function (req, res) {
   res.send(JSON.stringify(plug));
 });
 
-// Log new plugs event
+// Called when new plug is registered
 ghoma.onNew = function (plug) {
-  console.log('Registerd plug from ' + plug.remoteAddress + " with id " + plug.id);
+  console.log(`New plug registered. Address -> ${plug.remoteAddress}, ID -> ${plug.id}`);
+}
+
+// Called when the plug switches on or off
+ghoma.onStatusChange = function(plug) {
+  console.log(`Plug ${plug.id} (${plug.remoteAddress}) is ${plug.state}. Triggered ${plug.triggered}`);
 }
 
 // Start the ghoma control server listening server on this port
