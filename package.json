@@ -1,0 +1,25 @@
+{
+  "name": "ghoma-http-gateway",
+  "version": "1.0.0",
+  "description": "HTTP Gateway for G-Homa Wi-Fi plugs",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ghoma": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ghoma",
+    "G-Homa",
+    "Wi-Fi plug",
+    "home automation",
+    "smart home",
+    "IOT"
+  ],
+  "author": "Andrew Tarasenko",
+  "license": "MIT"
+}
