@@ -1,2 +1,4 @@
 # ghoma-http-gateway
-Control G-Home plugs over HTTP
+Control G-Homa plugs over HTTP.
+
+Inspired by [this](https://github.com/rodney42/node-ghoma) project.
