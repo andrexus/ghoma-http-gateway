@@ -4,7 +4,7 @@
   "description": "HTTP Gateway for G-Homa Wi-Fi plugs",
   "main": "main.js",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.18.2",
     "ghoma": "^1.0.7"
   },
   "devDependencies": {},
